@@ -1,0 +1,197 @@
+{
+    "name": "Sidewinder Checkliste",
+    "info": {
+        "author": "Kai-Uwe Sattler",
+        "version": "1.0",
+        "description": "basiert auf Checkliste von Steffi Steuerer"
+    },
+    "logging": [
+        {
+            "column": "Ambient 1",
+            "value": {
+                "section": 1,
+                "item": 13
+            }
+        },
+        {
+            "column": "Ambient 2",
+            "value": {
+                "section": 1,
+                "item": 14
+            }
+        },
+        {
+            "column": "Ambient 3",
+            "value": {
+                "section": 1,
+                "item": 15
+            }
+        },
+        {
+            "column": "Oxygen 1",
+            "value": {
+                "section": 5,
+                "item": 53
+            }
+        },
+        {
+            "column": "Oxygen 2",
+            "value": {
+                "section": 5,
+                "item": 54
+            }
+        },
+        {
+            "column": "Oxygen 3",
+            "value": {
+                "section": 5,
+                "item": 55
+            }
+        }
+    ],
+    "sections": [
+        {
+            "id": 1,
+            "name": "Computer",
+            "items": [
+                {
+                    "id": 11,
+                    "text": "Computer einschalten, Batteriespannung überprüfen",
+                    "type": "check"
+                },
+                {
+                    "id": 12,
+                    "text": "Zellenspannung (mV) von jedem Sensor eintragen",
+                    "type": "check"
+                },
+                {
+                    "id": 13,
+                    "text": "Sensor 1 (mV Luft)",
+                    "type": "value"
+                },
+                {
+                    "id": 14,
+                    "text": "Sensor 2 (mV Luft)",
+                    "type": "value"
+                },
+                {
+                    "id": 15,
+                    "text": "Sensor 3 (mV Luft)",
+                    "type": "value"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Scrubber",
+            "items": [
+                {
+                    "id": 21,
+                    "text": "Scrubberkanister bis zur Markierung befüllen und Meshgitter darüber platzieren. Stacktimer am Computer zurücksetzen.",
+                    "type": "check"
+                },
+                {
+                    "id": 22,
+                    "text": "Alle O-Ringe am Scrubberkanister überprüfen und einfetten.",
+                    "type": "check"
+                },
+                {
+                    "id": 23,
+                    "text": "Montage der Köpfe an den Scrubberkanistern. Achte auf die richtige Ausrichtung.",
+                    "type": "check"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Gegenlunge",
+            "items": [
+                {
+                    "id": 31,
+                    "text": "Alle O-Ringe der Gegenlunge überprüfen und einfetten. Gegenlunge am Harness montieren.",
+                    "type": "check"
+                },
+                {
+                    "id": 32,
+                    "text": "Gegenlunge an beide Scrubberkanister montieren und mit den Clips sichern. Oberen Karabiner am Harness montieren.",
+                    "type": "check"
+                },
+                {
+                    "id": 33,
+                    "text": "Mundstück auf Löcher oder Risse untersuchen. Funktion beider Rückschlagventile überprüfen.",
+                    "type": "check"
+                },
+                {
+                    "id": 34,
+                    "text": "O-Ringe des Loops überprüfen, Loop an beide Tower montieren. Überprüfe: Gasfluss - Ausatmung geht in den rechten Tower und ob die Bajonettverschlüsse eingerastet sind.",
+                    "type": "check"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Unterdruck-Test",
+            "items": [
+                {
+                    "id": 41,
+                    "text": "O2-Flasche montieren und anschließen, Mitteldruckschlauch und erste Stufe richtig verlegen. O2-Flasche abgedreht lassen!!",
+                    "type": "check",
+                },
+                {
+                    "id": 42,
+                    "text": "Unterdruck-Test mit Luft durchführen. mV der Sensoren sollten sich nicht ändern.",
+                    "type": "timer",
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Sauerstoff spülen",
+            "items": [
+                {
+                    "id": 51,
+                    "text": "Mundstück etwas öffnen, Rebreather mit O2 spülen, O2-Anzeige muss bei allen Zellen langsam und gleichmäßig steigen, falls notwendig kalibrieren.",
+                    "type": "check"
+                },
+                {
+                    "id": 52,
+                    "text": "Aktuelle mV bei 100% O2 eintragen",
+                    "type": "check"
+                },
+                {
+                    "id": 53,
+                    "text": "Sensor 1 (mV O2)",
+                    "type": "value"
+                },
+                {
+                    "id": 54,
+                    "text": "Sensor 2 (mV O2)",
+                    "type": "value"
+                },
+                {
+                    "id": 55,
+                    "text": "Sensor 3 (mV O2)",
+                    "type": "value"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Überdruck-Test",
+            "items": [
+                {
+                    "id": 61,
+                    "text": "Überdrucktest mit Sauerstoff durchführen. mV der Sensoren sollten sich nicht ändern.",
+                    "type": "timer",
+                    "time": 300
+                },
+                {
+                    "id": 62,
+                    "text": "Mundstück vollständig öffnen und Loop entlüften. DSV schließen",
+                    "type": "check"
+                }
+            ]
+        }
+    ]
+}
