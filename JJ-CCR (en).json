@@ -1,0 +1,229 @@
+{
+    "name":"JJ-CCR",
+    "info": {
+        "author": "Kai-Uwe Sattler",
+        "version": "1.0",
+        "description": "based on SSI checklist"
+    },
+    "sections": [
+        {
+            "items": [
+                {
+                    "id":11,
+                    "text":"Analyze, assembler, pressure check, label and confirm function and team compatibility of the bailout cylinder(s)",
+                    "type":"check"
+                },
+                {
+                    "id":12,
+                    "text":"Fill the scrubber cartridge with fresh Sofnolime 797 - or verify there is sufficient absorbent time remaining for the planned dive - and place in the scrubber",
+                    "type":"check"
+                },
+                {
+                    "id":13,
+                    "text":"Analyze, pressure check, and label the oxygen and diluent cylinders",
+                    "type":"check"
+                }
+            ],
+            "id":1,"name":"Analyze"},
+        {
+            "items": [
+                {
+                    "id":21,
+                    "text":"Install the oxygen and diluent cylinders on the unit, connect both first stages, and verify correct installation",
+                    "type":"check"
+                },
+                {
+                    "id":22,
+                    "text":"Verify that battery levels are sufficient for the planned dive (external battery >6.6V or >5.5V, internal battery >3.3V or >1.3V)",
+                    "type":"check"
+                },
+                {
+                    "id":23,
+                    "text":"External battery (in V)",
+                    "type":"value"
+                },
+                {
+                    "id":24,
+                    "text":"Internal battery (in V)",
+                    "type":"value"
+                }
+            ],
+            "id":2,"name":"Installation"
+        },
+        {
+            "items": [
+                {
+                    "id":31,
+                    "text":"Inspectg the head o-rings and fit the head to the scrubber canister",
+                    "type":"check"
+                },
+                {
+                    "id":32,
+                    "text":"Install the scrubber canister into the housing by aligning the button with the hole: depress the button and push down on the battery compartment until it clicks",
+                    "type":"check"
+                }
+            ],
+            "id":3,"name":"Scrubber"
+        },
+        {
+            "items": [
+                {
+                    "id":41,
+                    "text":"Connect the rear breathing hoses to the T-Piece and auto-diluent valve (ADV)",
+                    "type":"check"
+                },
+                {
+                    "id":42,
+                    "text":"While holding the solenoid hose away from the eyes, briefly open then close the oxygen cylinder valve to clear any debris or water from the hose",
+                    "type":"check"
+                },
+                {
+                    "id":43,
+                    "text":"Connect the solenoid hose to the head fitting (finger tight)",
+                    "type":"check"
+                }
+            ],
+            "id":4,"name":"Hoses"
+        },
+        {
+            "items": [
+                {
+                    "id":51,
+                    "text":"Verify the correct operation of the non-return mushroom valves in the mouthpiece and connect the breathing loop to the T-Piece and ADV",
+                    "type":"check"
+                },
+                {
+                    "id":52,
+                    "text":"Route the heads-up display (HUD) and the controller, and verify correct routing",
+                    "type":"check"
+                },
+                {
+                    "id":53,
+                    "text":"Complete a positive pressure test for at least 1 minute",
+                    "type": "timer",
+                    "time": 60
+                },
+                {
+                    "id":54,
+                    "text":"Complete a negative pressure test for at least 1 minute",
+                    "type": "timer",
+                    "time": 60
+                }
+            ],
+            "id":5,"name":"Test"
+        },
+        {
+            "items": [
+                {
+                    "id":61,
+                    "text":"Open both cylinder valves",
+                    "type":"check"
+                },
+                {
+                    "id":62,
+                    "text":"Close both cylinder valves and perform a high-pressure leak test for at least 1 minute",
+                    "type": "timer",
+                    "time": 60
+                },
+                {
+                    "id":63,
+                    "text":"Reopen both cylinder valves if the unit passes the leak check",
+                    "type":"check"
+                },
+                {
+                    "id":64,
+                    "text":"Verify that the oxygen interstage pressure is between 7-7.5 bar",
+                    "type":"check"
+                },
+                {
+                    "id":65,
+                    "text":"Verify that the diluent interstage pressure is between 7-7.5 bar",
+                    "type":"check"
+                }
+            ],
+            "id":6,"name":"Cylinders"
+        },
+        {
+            "items": [
+                {
+                    "id":71,
+                    "text":"Verify the manual addition valves (MAVs) and ADV are functioning correctly",
+                    "type":"check"
+                },
+                {
+                    "id":72,
+                    "text":"Verify the wing inflator and dump valves are functioning correctly",
+                    "type":"check"
+                },
+                {
+                    "id":73,
+                    "text":"Verify the dive surface valve (DSV) is functioning correctly",
+                    "type":"check"
+                },
+                {
+                    "id":74,
+                    "text":"Verify that the over-pressure valve is functioning correctly and is fed through the loop on the wing",
+                    "type":"check"
+                }
+            ],
+            "id":7,"name":"Valves"
+        },
+        {
+            "items": [
+                {
+                    "id":81,
+                    "text":"Turn on the controller and the HUD and verify their correct operation",
+                    "type":"check"
+                },
+                {
+                    "id":82,
+                    "text":"Open the mouthpiece and ensure it is in the closed-circuit position",
+                    "type":"check"
+                },
+                {
+                    "id":83,
+                    "text":"Calibrate the oxygen sensors on both the controller and the HUD",
+                    "type":"check"
+                }
+            ],
+            "id":8,"name":"Calibration"
+        },
+        {
+            "items": [
+                {
+                    "id":91,
+                    "text":"Breathe for 2-3 minutes from the unit to verify that the unit is functioning correctly",
+                    "type": "timer",
+                    "time": 60
+                },
+                {
+                    "id":92,
+                    "text":"Verify that the ppO2 on the controller and the HUD are the same",
+                    "type":"check"
+                },
+                {
+                    "id":93,
+                    "text":"Switch off the controller and the HUD, and close both cylinder valves",
+                    "type":"check"
+                }
+            ],
+            "id":9,"name":"Final check"
+        }
+    ],
+    "logging": [
+        {
+            "value": {
+                "section":2,
+                "item":23
+            },
+            "column":"Battery 1"
+        },
+        {
+            "value": {
+                "section":2,
+                "item":24
+            },
+            "column":"Battery 2"
+        }
+    ]
+}

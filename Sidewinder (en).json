@@ -1,0 +1,197 @@
+{
+    "name": "Sidewinder Checklist",
+    "info": {
+        "author": "Kai-Uwe Sattler",
+        "version": "1.0",
+        "description": "based on Checklist of Steffi Steuerer"
+    },
+    "logging": [
+        {
+            "column": "Ambient 1",
+            "value": {
+                "section": 1,
+                "item": 13
+            }
+        },
+        {
+            "column": "Ambient 2",
+            "value": {
+                "section": 1,
+                "item": 14
+            }
+        },
+        {
+            "column": "Ambient 3",
+            "value": {
+                "section": 1,
+                "item": 15
+            }
+        },
+        {
+            "column": "Oxygen 1",
+            "value": {
+                "section": 5,
+                "item": 53
+            }
+        },
+        {
+            "column": "Oxygen 2",
+            "value": {
+                "section": 5,
+                "item": 54
+            }
+        },
+        {
+            "column": "Oxygen 3",
+            "value": {
+                "section": 5,
+                "item": 55
+            }
+        }
+    ],
+    "sections": [
+        {
+            "id": 1,
+            "name": "Computer",
+            "items": [
+                {
+                    "id": 11,
+                    "text": "Turn on computer, check battery voltage",
+                    "type": "check"
+                },
+                {
+                    "id": 12,
+                    "text": "Record cell voltage (mV) from each sensor",
+                    "type": "check"
+                },
+                {
+                    "id": 13,
+                    "text": "Sensor 1 (mV air)",
+                    "type": "value"
+                },
+                {
+                    "id": 14,
+                    "text": "Sensor 2 (mV air)",
+                    "type": "value"
+                },
+                {
+                    "id": 15,
+                    "text": "Sensor 3 (mV air)",
+                    "type": "value"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Scrubber",
+            "items": [
+                {
+                    "id": 21,
+                    "text": "Fill scrubber canister to the marking and place mesh screen on top. Reset stack timer on computer.",
+                    "type": "check"
+                },
+                {
+                    "id": 22,
+                    "text": "Check all O-rings on scrubber canister and grease them.",
+                    "type": "check"
+                },
+                {
+                    "id": 23,
+                    "text": "Mount heads to scrubber canisters. Pay attention to correct orientation.",
+                    "type": "check"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Counterlung",
+            "items": [
+                {
+                    "id": 31,
+                    "text": "Check all O-rings on counterlung and grease them. Mount counterlung to harness.",
+                    "type": "check"
+                },
+                {
+                    "id": 32,
+                    "text": "Mount counterlung to both scrubber canisters and secure with clips. Mount upper carabiner to harness.",
+                    "type": "check"
+                },
+                {
+                    "id": 33,
+                    "text": "Inspect mouthpiece for holes or cracks. Check function of both check valves.",
+                    "type": "check"
+                },
+                {
+                    "id": 34,
+                    "text": "Check O-rings on loop, mount loop to both towers. Verify: Gas flow - exhale goes into right tower and bayonet locks are engaged.",
+                    "type": "check"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Negative Pressure Test",
+            "items": [
+                {
+                    "id": 41,
+                    "text": "Mount and connect O2 cylinder, route medium-pressure hose and first stage correctly. Keep O2 cylinder closed!!",
+                    "type": "check"
+                },
+                {
+                    "id": 42,
+                    "text": "Perform negative pressure test with air. Sensor mV should not change.",
+                    "type": "timer",
+                    "time": 300
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Oxygen Flush",
+            "items": [
+                {
+                    "id": 51,
+                    "text": "Open mouthpiece slightly, flush rebreather with O2, O2 reading must rise slowly and evenly on all cells, calibrate if necessary.",
+                    "type": "check"
+                },
+                {
+                    "id": 52,
+                    "text": "Record current mV at 100% O2",
+                    "type": "check"
+                },
+                {
+                    "id": 53,
+                    "text": "Sensor 1 (mV O2)",
+                    "type": "value"
+                },
+                {
+                    "id": 54,
+                    "text": "Sensor 2 (mV O2)",
+                    "type": "value"
+                },
+                {
+                    "id": 55,
+                    "text": "Sensor 3 (mV O2)",
+                    "type": "value"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Positive Pressure Test",
+            "items": [
+                {
+                    "id": 61,
+                    "text": "Perform positive pressure test with oxygen. Sensor mV should not change.",
+                    "type": "timer",
+                    "time": 300
+                },
+                {
+                    "id": 62,
+                    "text": "Fully open mouthpiece and vent loop. Close DSV",
+                    "type": "check"
+                }
+            ]
+        }
+    ]
+}
