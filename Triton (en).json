@@ -1,0 +1,115 @@
+{"name":"Triton",
+    "info": {
+        "author": "Kai-Uwe Sattler",
+        "version": "1.0",
+        "description": "based on official M3S checklist"
+    },
+    "sections": [
+        {
+            "items": [
+                {"type":"check","id":11,"text":"Turn on Monox display & Shearwater computer"},
+                {"type":"value","id":12,"text":"Battery check Monox"},
+                {"type":"check","id":13,"text":"Battery check Shearwater computer (if present)"},
+                {"type":"value","id":15,"text":"Check sensor 1 calibration in air"},
+                {"type":"value","id":16,"text":"Check sensor 2 calibration in air"},
+                {"type":"value","id":17,"text":"Check sensor 3 calibration in air"}
+            ],
+            "name":"Displays","id":1
+        },
+        {
+            "name":"Cylinders","id":2,
+            "items": [
+                {"text":"Oxygen cylinder O2 % check","type":"check","id":21},
+                {"text":"Oxygen tank pressure check with Triton O2 regulator (> 100 bar)","type":"check","id":22},
+                {"text":"Check and note CMF flow (10 bar in 7 sec)","type":"check","id":23},
+                {"text":"Diluent & bailout cylinder(s) check O2 % (He %) and label","type":"check","id":24},
+                {"text":"Diluent and bailout cylinder(s) pressure check and enough for drive","type":"check","id":25}
+            ]
+        },
+        {
+            "name":"Scrubber","id":3,
+            "items": [
+                {"text":"Scrubber filling with Sofnolime 797 in ventilated area","type":"check","id":31},
+                {"text":"Internal canister o-rings check - 2 pieces (1 red on bottom & 1 black in groove)","type":"check","id":32},
+                {"text":"Close and label canister (M3S canister tape)","type":"check","id":33}
+            ]
+        },
+        {
+            "name":"Counter-lungs","id":4,
+            "items": [
+                {"text":"Exhale counter-lung fitting","type":"check","id":41},
+                {"text":"Inhale counter-lung fitting & check no water is present in the lung","type":"check","id":42},
+                {"text":"Canister to counter-lung connection","type":"check","id":43}
+            ]
+        },
+        {
+            "name":"Loop","id":5,
+            "items": [
+                {"text":"Mouthpiece visual check","type":"check","id":51},
+                {"text":"Internal hoses & mushroom valve visual check","type":"check","id":52},
+                {"text":"Mushroom seal check","type":"check","id":53},
+                {"text":"Loop to counter-lung connection","type":"check","id":54}
+            ]
+        },
+        {
+            "name":"Gas Line & Electronics","id":6,
+            "items": [
+                {"text":"ADV to exhale counter-lung connection","type":"check","id":61},
+                {"text":"First stage properly screwed on oxygen valve","type":"check","id":62},
+                {"text":"Cells housing to inhale counter-lung connection","type":"check","id":64},
+                {"text":"Oxygen cylinder fitting (no contact with OPV)","type":"check","id":63}
+            ]
+        },
+        {
+            "name":"Tests","id":7,
+            "items": [
+                {"text":"Positive pressure test","type":"timer","time":120,"id":71},
+                {"text":"Negative pressure test","type":"timer","time":120,"id":72}
+            ]
+        },
+        {
+            "name":"Calibration","id":8,
+            "items": [
+                {"text":"Oxygen flush calibration: check mouthpiece slightly opened and OPV closed","type":"check","id":81},
+                {"text":"Perform calibration of Shearwater computer (if present) and then Monox","type":"check","id":82}
+            ]
+        },
+        {
+            "name":"ADV & BCD Check","id":9,
+            "items": [
+                {"text":"Connect ADV & BCD","type":"check","id":91},
+                {"text":"Check ADV function, no free flow, manual addition","type":"check","id":92}
+            ]
+        }
+    ],
+    "logging": [
+        {
+            "value": {
+                "item":12,
+                "section":1
+            },
+            "column":"Battery 1"
+        },
+        {
+            "value": {
+                "item":15,
+                "section":1
+            },
+            "column":"Ambient 1"
+        },
+        {
+            "value": {
+                "item":16,
+                "section":1
+            },
+            "column":"Ambient 2"
+        },
+        {
+            "value": {
+                "item":17,
+                "section":1
+            },
+            "column":"Ambient 3"
+        }
+    ]
+}
