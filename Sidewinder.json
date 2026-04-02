@@ -3,7 +3,8 @@
     "info": {
         "author": "Kai-Uwe Sattler",
         "version": "1.0",
-        "description": "basiert auf Checkliste von Steffi Steuerer"
+        "description": "basiert auf Checkliste von Steffi Steuerer",
+        "language": "de"
     },
     "logging": [
         {

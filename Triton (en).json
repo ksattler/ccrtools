@@ -2,7 +2,8 @@
     "info": {
         "author": "Kai-Uwe Sattler",
         "version": "1.0",
-        "description": "based on official M3S checklist"
+        "description": "based on official M3S checklist",
+        "language": "en"
     },
     "sections": [
         {

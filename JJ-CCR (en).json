@@ -3,7 +3,8 @@
     "info": {
         "author": "Kai-Uwe Sattler",
         "version": "1.0",
-        "description": "based on SSI checklist"
+        "description": "based on SSI checklist",
+        "language": "en"
     },
     "sections": [
         {
