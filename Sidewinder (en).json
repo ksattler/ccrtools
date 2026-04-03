@@ -142,7 +142,7 @@
                     "id": 42,
                     "text": "Perform negative pressure test with air. Sensor mV should not change.",
                     "type": "timer",
-                    "time": 300
+                    "time": 60
                 }
             ]
         },

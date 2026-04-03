@@ -142,7 +142,7 @@
                     "id": 42,
                     "text": "Unterdruck-Test mit Luft durchführen. mV der Sensoren sollten sich nicht ändern.",
                     "type": "timer",
-                    "time": 300
+                    "time": 60
                 }
             ]
         },
