@@ -1,0 +1,136 @@
+{
+    "sections": [
+        {
+            "items": [
+                {"type":"check","id":11,"text":"Mushroom Valve Check"},
+                {"type":"value","id":12,"text":"Check Remaining Scrubber Duration"},
+                {"type":"check","id":13,"text":"Re-pack scrubber if needed"},
+                {"type":"check","id":14,"text":"Reser stack timer to appropriate time"},
+                {"type":"check","id":15,"text":"Install Analyzed + Labeled Gas Cylinders"}
+            ],
+            "id":1,
+            "name":"Check"
+        },
+        {
+            "items": [
+                {"type":"check","id":21,"text":"Open BOV"},
+                {"type":"check","id":22,"text":"Inhale from BOV in CC mode, exhaling through nose until counterlungs are fully collapsed"},
+                {"type":"check","id":23,"text":"Close BOV"},
+                {"type":"timer","time":60,"id":24,"text":"Allow to sit for 1 minute (minimum); watch for signs of leaks"}
+            ],
+            "id":2,
+            "name":"Negative Pressure Test"
+        },
+        {
+            "items": [
+                {"type":"check","id":31,"text":"Close OPV"},
+                {"type":"check","id":32,"text":"Fill loop fully until OPV vents"},
+                {"type":"timer","time":60,"id":33,"text":"Allow to sit for 1 minute; watch for signs of leaks"},
+                {"type":"check","id":34,"text":"Open BOV to release pressure, close BOV"}
+            ],
+            "id":3,
+            "name":"Positive Pressure Test"
+        },
+        {
+            "items": [
+                {"type":"check","id":41,"text":"Turn on X-CCR & Secondary "},
+                {"type":"check","id":42,"text":"Change to .19 Setpoint"},
+                {"type":"check","id":43,"text":"Slowly open oxygen cylinder"},
+                {"type":"check","id":44,"text":"Close BOV"},
+                {"type":"check","id":45,"text":"Fill loop with oxygen "},
+                {"type":"check","id":46,"text":"Evacuate loop fully (ensure ADV is isolated)"},
+                {"type":"check","id":47,"text":"Fill loop with oxygen "},
+                {"type":"check","id":48,"text":"Evacuate loop fully (ensure ADV is isolated)"},
+                {"type":"check","id":49,"text":"Fill loop with oxygen "},
+                {"type":"check","id":50,"text":"Quickly open and close the BOV to bring loop to ambient pressure "}
+            ],
+            "id":4,
+            "name":"Loop"
+        },
+        {
+            "items": [
+                {"type":"check","id":51,"text":"Check for appropriate PO2 (considering altitude)"},
+                {"type":"check","id":52,"text":"If needed, perform calibration according to user manual"},
+                {"type":"check","id":53,"text":"Check mV readings"},{"type":"value","id":54,"text":"Sensor 1"},
+                {"type":"value","id":55,"text":"Sensor 2"},{"type":"value","id":56,"text":"Sensor 3"}
+            ],
+            "id":5,
+            "name":"Calibration"
+        },
+        {
+            "items": [
+                {"type":"check","id":61,"text":"Slowly open diluent cylinder"},
+                {"type":"check","id":62,"text":"Inhale from BOV (being cautious if using a hypoxic diluent)"},
+                {"type":"check","id":63,"text":"Open BOV, inhale from loop until ADV engages (if equipped), dropping loop PO2"},
+                {"type":"check","id":64,"text":"BCD Inflation + deflation mechanisms & BCD air holding"},
+                {"type":"check","id":65,"text":"Confirm Dil & O2 MAV function "}
+            ],
+            "id":6,
+            "name":"Check Valves"
+        },
+        {
+            "items": [
+                {"type":"check","id":71,"text":"Open diluent & oxygen cylinders slowly allowing hoses to pressurize, close valves"},
+                {"type":"timer","time":60,"id":72,"text":"Watch pressure gauges for pressure lost for a minimum of 30 seconds "},
+                {"type":"check","id":73,"text":"Open diluent & oxygen cylinders "}
+            ],
+            "id":7,
+            "name":"Leak Tests"
+        },
+        {
+            "items": [
+                {"type":"check","id":81,"text":"Change  X-CCR to low setpoint"},
+                {"type":"check","id":82,"text":"Solenoid fires, O2 injection verified"},
+                {"type":"check","id":83,"text":"Change X-CCR to .19 setpoint"},
+                {"type":"check","id":84,"text":"Check battery status for B1 & B2 & all handsets \/ NERD"},
+                {"type":"check","id":85,"text":"If less than 50%, recharge before continuing "}
+            ],
+            "id":8,
+            "name":"Solenoid & Battery"
+        },
+        {
+            "items": [
+                {"type":"check","id":91,"text":"Change X-CCR to low setpoint "},
+                {"type":"check","id":92,"text":"Block nose and begin breathing from the X-CCR (in a safe location\/position)"},{"type":"check","id":93,"text":"Observe setpoint maintenance and HUD functions "},
+                {"type":"timer","time":300,"id":94,"text":"Monitor CO2 reading, pay close attention to how you feel as well as how the CCR is functioning for a full 5 min"}
+            ],
+            "id":9,
+        "name":"Pre-Breathe"}
+    ],
+    "info": {
+        "author": "Kai-Uwe Sattler",
+        "version": "1.0",
+        "description": "based on Checklist of CCR.Sub-Gravity.com",
+        "language": "en"
+    },
+    "name":"X-CCR",
+    "logging": [
+        {
+            "column":"Scrubber","value": {
+                "item":12,
+                "section":1
+            }
+        },
+        {
+            "column":"Oxygen 1",
+            "value": {
+                "item":54,
+                "section":5
+            }
+        },
+        {
+            "column":"Oxygen 2",
+            "value": {
+                "item":55,
+                "section":5
+            }
+        },
+        {
+            "column":"Oxygen 3",
+            "value": {
+                "item":56,
+                "section":5
+            }
+        }
+    ]
+}
