@@ -1,0 +1,185 @@
+{
+    "name":"Demo",
+    "info": {
+        "author": "Kai-Uwe Sattler",
+        "version": "1.0",
+        "description": "Demo-Checkliste zur Erklärung der Features",
+	"language": "de"
+    },
+    "logging": [
+        {
+            "value": {
+                "section": 1,
+                "item": 12
+            },
+            "column": "Ambient 1"
+        },
+        {
+            "value": {
+                "section": 1,
+                "item": 13
+            },
+            "column": "Ambient 2"
+        },
+        {
+            "value": {
+                "section": 1,
+                "item": 14
+            },
+            "column": "Ambient 3"
+        },
+        {
+            "value": {
+                "section": 1,
+                "item": 15
+            },
+            "column": "Ambient 4"
+        },
+        {
+            "value": {
+                "section": 1,
+                "item": 16
+            },
+            "column": "Ambient 5"
+        },
+        {
+            "value": {
+                "section": 2,
+                "item": 23
+            },
+            "column": "Oxygen 1"
+        },
+        {
+            "value": {
+                "section": 2,
+                "item": 24
+            },
+            "column": "Oxygen 2"
+        },
+        {
+            "value": {
+                "section": 2,
+                "item": 25
+            },
+            "column": "Oxygen 3"
+        },
+        {
+            "value": {
+                "section": 2,
+                "item": 26
+            },
+            "column": "Oxygen 4"
+        },
+        {
+            "value": {
+                "section": 2,
+                "item": 27
+            },
+            "column": "Oxygen 5"
+        },
+        {
+            "value": {
+                "section": 1,
+                "item": 15
+            },
+            "column": "Scrubber"
+        },
+        {
+            "value": {
+                "section": 2,
+                "item": 22
+            },
+            "column": "Battery 1"
+        }
+    ],
+    "sections": [
+        {
+            "name": "Schritt 1",
+            "id": 1,
+            "items": [
+                {
+                    "id": 11,
+                    "text": "Abhaken",
+                    "type": "check"
+                },
+                {
+                    "id": 12,
+                    "text": "O2-Sensor 1 bei Luft in mV ",
+                    "type": "value"
+                },
+                {
+                    "id": 13,
+                    "text": "O2-Sensor 2 bei Luft in mV ",
+                    "type": "value"
+                },
+                {
+                    "id": 14,
+                    "text": "O2-Sensor 3 bei Luft in mV ",
+                    "type": "value"
+                },
+                {
+                    "id": 15,
+                    "text": "O2-Sensor 4 bei Luft in mV ",
+                    "type": "value"
+                },
+                {
+                    "id": 16,
+                    "text": "O2-Sensor 5 bei Luft in mV ",
+                    "type": "value"
+                },
+                {
+                    "time": 60,
+                    "id": 17,
+                    "text": "1 Minute warten",
+                    "type": "timer"
+                },
+                {
+                    "id": 18,
+                    "text": "Scrubber Restzeit in Minuten",
+                    "type": "value"
+                }
+            ]
+        },
+        {
+            "name": "Schritt 2",
+            "id": 2,
+            "items": [
+                {
+                    "id":21,
+                    "text": "Nochmal abhaken",
+                    "type": "check"
+                },
+                {
+                    "id":22,
+                    "text": "Batterie in V",
+                    "type": "value"
+                },
+                {
+                    "id": 23,
+                    "text": "O2-Sensor 1 bei O2 in mV",
+                    "type": "value"
+                },
+                {
+                    "id": 24,
+                    "text": "O2-Sensor 2 bei O2 in mV",
+                    "type": "value"
+                },
+                {
+                    "id": 25,
+                    "text": "O2-Sensor 3 bei O2 in mV",
+                    "type": "value"
+                },
+                {
+                    "id": 26,
+                    "text": "O2-Sensor 4 bei O2 in mV",
+                    "type": "value"
+                },
+                {
+                    "id": 27,
+                    "text": "O2-Sensor 5 bei O2 in mV",
+                    "type": "value"
+                }
+            ]
+        }
+    ]
+}

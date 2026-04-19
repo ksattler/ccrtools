@@ -1,0 +1,137 @@
+{
+    "info": {
+        "author": "Kai-Uwe Sattler",
+        "version": "1.0",
+        "description": "basierend auf der Checkliste von CCR.Sub-Gravity.com",
+        "language": "de"
+    },
+    "sections": [
+        {
+            "items": [
+                {"type":"check","id":11,"text":"Mushroom-Ventil-Kontrolle"},
+                {"type":"value","id":12,"text":"Verbleibende Scrubber-Laufzeit prüfen"},
+                {"type":"check","id":13,"text":"Scrubber bei Bedarf neu befüllen"},
+                {"type":"check","id":14,"text":"Scrubber-Timer auf die entsprechende Zeit zurücksetzen"},
+                {"type":"check","id":15,"text":"Analysierte + beschriftete Gasflaschen einbauen"}
+            ],
+            "id":1,
+            "name":"Überprüfung"
+        },
+        {
+            "items": [
+                {"type":"check","id":21,"text":"BOV öffnen"},
+                {"type":"check","id":22,"text":"Im CC-Modus vom BOV einatmen, durch die Nase ausatmen, bis die Gegenlungen vollständig kollabiert sind"},
+                {"type":"check","id":23,"text":"BOV schließen"},
+                {"type":"timer","time":60,"id":24,"text":"1 Minute (mindestens) warten; auf Anzeichen von Undichtigkeiten achten"}
+            ],
+            "id":2,
+            "name":"Unterdrucktest"
+        },
+        {
+            "items": [
+                {"type":"check","id":31,"text":"OPV schließen"},
+                {"type":"check","id":32,"text":"Loop vollständig füllen, bis das OPV abbläst"},
+                {"type":"timer","time":60,"id":33,"text":"1 Minute warten; auf Anzeichen von Undichtigkeiten achten"},
+                {"type":"check","id":34,"text":"BOV öffnen, um Druck abzulassen, BOV schließen"}
+            ],
+            "id":3,
+            "name":"Überdrucktest"
+        },
+        {
+            "items": [
+                {"type":"check","id":41,"text":"X-CCR & Sekundärgerät einschalten"},
+                {"type":"check","id":42,"text":"Auf Setpoint .19 wechseln"},
+                {"type":"check","id":43,"text":"Sauerstoffflasche langsam öffnen"},
+                {"type":"check","id":44,"text":"BOV schließen"},
+                {"type":"check","id":45,"text":"Loop mit Sauerstoff füllen"},
+                {"type":"check","id":46,"text":"Loop vollständig entleeren (sicherstellen, dass ADV isoliert ist)"},
+                {"type":"check","id":47,"text":"Loop mit Sauerstoff füllen"},
+                {"type":"check","id":48,"text":"Loop vollständig entleeren (sicherstellen, dass ADV isoliert ist)"},
+                {"type":"check","id":49,"text":"Loop mit Sauerstoff füllen"},
+                {"type":"check","id":50,"text":"BOV kurz öffnen und schließen, um den Loop auf Umgebungsdruck zu bringen"}
+            ],
+            "id":4,
+            "name":"Kreislauf"
+        },
+        {
+            "items": [
+                {"type":"check","id":51,"text":"Geeigneten PO2 prüfen (Höhe berücksichtigen)"},
+                {"type":"check","id":52,"text":"Bei Bedarf Kalibrierung gemäß Benutzerhandbuch durchführen"},
+                {"type":"check","id":53,"text":"mV-Werte prüfen"},{"type":"value","id":54,"text":"Sensor 1"},
+                {"type":"value","id":55,"text":"Sensor 2"},{"type":"value","id":56,"text":"Sensor 3"}
+            ],
+            "id":5,
+            "name":"Kalibrierung"
+        },
+        {
+            "items": [
+                {"type":"check","id":61,"text":"Diluent-Flasche langsam öffnen"},
+                {"type":"check","id":62,"text":"Vom BOV einatmen (Vorsicht bei hypoxischem Diluent-Gas)"},
+                {"type":"check","id":63,"text":"BOV öffnen, aus dem Loop einatmen, bis das ADV anspricht (falls vorhanden), PO2 im Loop absenken"},
+                {"type":"check","id":64,"text":"BCD Inflate- & Deflate-Mechanismen & BCD-Luftdichtheit prüfen"},
+                {"type":"check","id":65,"text":"Funktion der Diluent- & O2-MAV bestätigen"}
+            ],
+            "id":6,
+            "name":"Ventilkontrolle"
+        },
+        {
+            "items": [
+                {"type":"check","id":71,"text":"Diluent- & Sauerstoffflasche langsam öffnen, Schläuche unter Druck setzen lassen, Ventile schließen"},
+                {"type":"timer","time":60,"id":72,"text":"Fini mindestens 30 Sekunden auf Druckverlust beobachten"},
+                {"type":"check","id":73,"text":"Diluent- & Sauerstoffflasche öffnen"}
+            ],
+            "id":7,
+            "name":"Dichtigkeitstests"
+        },
+        {
+            "items": [
+                {"type":"check","id":81,"text":"X-CCR auf niedrigen Setpoint stellen"},
+                {"type":"check","id":82,"text":"Magnetventil schaltet, O2-Injektion bestätigt"},
+                {"type":"check","id":83,"text":"X-CCR auf niedrigen Setpoint stellen"},
+                {"type":"check","id":84,"text":"Batteriestatus für B1 & B2 & alle Handgeräte \/ NERD prüfen"},
+                {"type":"check","id":85,"text":"Falls unter 50%, vor dem Weitermachen aufladen"}
+            ],
+            "id":8,
+            "name":"Magnetventil & Batterie"
+        },
+        {
+            "items": [
+                {"type":"check","id":91,"text":"X-CCR auf niedrigen Setpoint stellen"},
+                {"type":"check","id":92,"text":"Nase zuhalten und mit dem Atmen vom X-CCR beginnen (an einem sicheren Ort\/in sicherer Position)"},
+                {"type":"check","id":93,"text":"Setpoint-Haltung und HUD-Funktionen beobachten"},
+                {"type":"timer","time":300,"id":94,"text":"CO2-Wert überwachen, genau darauf achten, wie man sich fühlt und wie der CCR funktioniert – vollständige 5 Minuten lang"}
+            ],
+            "id":9,
+        "name":"Voratmung"}
+    ],
+    "name":"X-CCR",
+    "logging": [
+        {
+            "column":"Scrubber","value": {
+                "item":12,
+                "section":1
+            }
+        },
+        {
+            "column":"Sauerstoff 1",
+            "value": {
+                "item":54,
+                "section":5
+            }
+        },
+        {
+            "column":"Sauerstoff 2",
+            "value": {
+                "item":55,
+                "section":5
+            }
+        },
+        {
+            "column":"Sauerstoff 3",
+            "value": {
+                "item":56,
+                "section":5
+            }
+        }
+    ]
+}

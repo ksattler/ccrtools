@@ -5,7 +5,7 @@
                 {"type":"check","id":11,"text":"Mushroom Valve Check"},
                 {"type":"value","id":12,"text":"Check Remaining Scrubber Duration"},
                 {"type":"check","id":13,"text":"Re-pack scrubber if needed"},
-                {"type":"check","id":14,"text":"Reser stack timer to appropriate time"},
+                {"type":"check","id":14,"text":"Reset stack timer to appropriate time"},
                 {"type":"check","id":15,"text":"Install Analyzed + Labeled Gas Cylinders"}
             ],
             "id":1,

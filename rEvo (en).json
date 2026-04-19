@@ -1,0 +1,138 @@
+{
+    "name":"rEvo",
+    "info": {
+        "version":"1.0",
+        "author":"Tobias Mücke",
+        "description":"based on SSI checklist",
+        "language":"en"
+    },
+    "sections": [
+        {
+            "id":1,
+            "items":[
+                {"id":11,"type":"check","text":"Analyse, pressure check, and label the oxygen and diluent cylinders"},
+                {"id":12,"type":"check","text":"Install both cylinders on the unit and verify correct installation"},
+                {"id":13,"type":"check","text":"Verify the millivolts from the oxygen sensors"},
+                {
+                    "id": 14,
+                    "text": "Sensor 1 (mV)",
+                    "type": "value"
+                },
+                {
+                    "id": 15,
+                    "text": "Sensor 2 (mV)",
+                    "type": "value"
+                },
+                {
+                    "id": 16,
+                    "text": "Sensor 3 (mV)",
+                    "type": "value"
+                },
+                {
+                    "id": 17,
+                    "text": "Sensor 4 (mV)",
+                    "type": "value"
+                },
+                {
+                    "id": 18,
+                    "text": "Sensor 5 (mV)",
+                    "type": "value"
+                },
+                {"id":19,"type":"check","text":"Verify the youngest oxygen sensor is less than 7 months old and reading correctly, add or replace if necessary, and mark date"},
+                {"id":20,"type":"check","text":"Secure moisture absorber in the inhale lung under the non-collapse tube"},
+                {"id":21,"type":"check","text":"Install the sensor grid and solenoid grid and verify the cable routing is correct"},
+                {"id":22,"type":"check","text":"Fire the solenoid for at least ten (10) seconds, or at least three (3) times, and verify external battery reads greater than 6.5 volts"},
+                {"id":23,"type":"check","text":"Inspect the remaining time on the scrubbers, and if needed, refill with fresh scrubber"},
+                {"id":24,"type":"check","text":"Install the scrubber canisters into the unit with the TOP marker on the exhale scrubber (rMS arrows point to the top)"},
+                {"id":25,"type":"check","text":"Inspect the scrubber O-Rings, clean sealant surfaces, and grease if needed"},
+                {"id":26,"type":"check","text":"Inspect the non-return mushroom valves in the breathing loop mouthpiece"},
+                {"id":27,"type":"check","text":"Inspect the mouthpiece and O-rings on the breathing loop, clean sealant surfaces, and grease"},
+                {"id":28,"type":"check","text":"Install the breathing loop onto the unit"},
+                {"id":29,"type":"check","text":"Wrap the HUD cable three to four times clockwise around the loop"}
+            ],
+            "name":"Pre-Dive Assembly"
+        },
+        {
+            "id":2,
+            "items": [
+                {"id":21,"type":"check","text":"Slowly open the oxygen valve, check the cylinder pressure, and manually add gas to verify proper function of the oxygen manual addition valve"},
+                {"id":22,"type":"check","text":"Turn on the Shearwater and set it to the high set point, then verify the solenoid fires at least three (3) times"},
+                {"id":23,"type":"check","text":"Set the Shearwater set point to 0.19"},
+                {"id":24,"type":"check","text":"Perform three (3) full oxygen flushes with the DSV in the mouth, and then close and slightly reopen the DSV, leaving a small gap"},
+                {"id":25,"type":"check","text":"Turn on the rEvodream(s) and calibrate them"},
+                {"id":26,"type":"check","text":"Calibrate the Shearwater"},
+                {"id":27,"type":"check","text":"Verify the external battery reads greater than 6.5 volts"},
+                {"id":28,"type":"value","text":"External battery (in V)"},
+                {"id":29,"type":"check","text":"Inspect the batteries of the Shearwater, and verify voltage is greater than 1.25\/3.30\/3.50"},
+                {"id":30,"type":"value","text":"Internal Battery (in V)"},
+                {"id":32,"type":"check","text":"Close the oxygen valve and verify that pressure drops"},
+                {"id":33,"type":"check","text":"Depressurize the oxygen line"},
+                {"id":34,"type":"check","text":"Open the diluent valve"},
+                {"id":35,"type":"check","text":"Breathe in any gas from the loop to verify that the ADV is functioning"},
+                {"id":36,"type":"check","text":"Close the loop and manually add diluent to verify proper function of the manual addition valve"},
+                {"id":37,"type":"check","text":"Inflate the loop until the overpressure valve activates, then close the loop and verify that there is no pressure drop"},
+                {"id":38,"type":"check","text":"Completely inflate the wing, and verify that it holds its volume"},
+                {"id":39,"type":"check","text":"Flush with diluent until ppO2 drops to 0.21 - 0.22"},
+                {"id":40,"type":"check","text":"Close the diluent valve and verify that pressure stays constant"},
+                {"id":41,"type":"check","text":"Breathe in any remaining gas from the loop to perform a negative test"},
+                {"id":42,"type":"check","text":"Analyze and label the bailout gas"},
+                {"id":43,"type":"check","text":"Verify the cylinder pressure is appropriate for the planned dive and ensure the gas is compatible with the team"},
+                {"id":44,"type":"check","text":"Inspect all connections"},
+                {"id":45,"type":"check","text":"Close the bailout cylinder valve and check the regulator mushroom valve by inhaling"},
+                {"id":46,"type":"check","text":"Ensure the necessary gases are programmed into the Shearwater"},
+                {"id":47,"type":"check","text":"If the negative test is OK, turn off Shearwater and rEvodreams"},
+                {"id":48,"type":"check","text":"Inspect the harness, crotch strap, and gag strap for wear and tear, correct positioning, and proper attachment"}
+            ],
+            "name":"Closed Check"
+        },
+        {
+            "id":3,
+            "items": [
+                {"id":31,"type":"check","text":"Open the bailout cylinder valve and verify that the pressure is appropriate for the planned dive"},
+                {"id":32,"type":"check","text":"Breathe from the bailout cylinder to verify proper function"},
+                {"id":33,"type":"check","text":"Inspect all connections"},
+                {"id":34,"type":"check","text":"Ensure the diluent cylinder valve is open and verify cylinder pressure"},
+                {"id":35,"type":"check","text":"Breathe in any gas from the loop to verify the auto-diluent valve is functioning"},
+                {"id":36,"type":"check","text":"Manually add diluent and verify the cylinder pressure"},
+                {"id":37,"type":"check","text":"Partially inflate the wing"},
+                {"id":38,"type":"check","text":"Partially inflate the dry suit (if applicable)"},
+                {"id":39,"type":"check","text":"Ensure the oxygen cylinder valve is open and verify cylinder pressure"},
+                {"id":40,"type":"check","text":"Turn on the Shearwater and set to the Low Set Point, then verify that the solenoid fires"},
+                {"id":41,"type":"check","text":"Manually add oxygen and verify the pressure"},
+                {"id":42,"type":"check","text":"Verify that the rEvodreams are on"},
+                {"id":43,"type":"check","text":"Verify that the ppO2 is greater than 0.7"},
+                {"id":44,"type":"check","text":"Verify that rEvodreams and Shearwater batteries are within the acceptable ranges"},
+                {
+                    "id":45,
+                    "type":"timer",
+                    "text":"Pre-breathe the unit for minimum of five (5) minutes or until the RCT is greater than 0:45, and verify that ppO2 is acceptable",
+                    "time":300
+                },
+                {"id":46,"type":"check","text":"Verify the gases are entered in the Shearwater computer, and that the computer is in closed-circuit mode"},
+                {"id":47,"type":"check","text":"Inspect any other equipment required for the dive, including maks, find, spares, cutter, lights, etc. "}
+            ],
+            "name":"Pre-Jump Check"
+        }
+    ],
+    "logging": [
+        {
+            "value": {
+                "item":28,
+                "section":2
+            },
+            "column":"Battery 1"
+        },
+        {
+            "value": {
+                "item":30,
+                "section":2
+            },
+            "column":"Battery 2"
+        },
+        {"value":{"item":14,"section":1},"column":"Ambient 1"},
+        {"value":{"item":15,"section":1},"column":"Ambient 2"},
+        {"value":{"item":16,"section":1},"column":"Ambient 3"},
+        {"value":{"item":17,"section":1},"column":"Ambient 4"},
+        {"value":{"item":18,"section":1},"column":"Ambient 5"}
+    ]
+}
