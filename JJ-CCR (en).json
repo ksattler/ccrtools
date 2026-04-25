@@ -2,7 +2,7 @@
     "name":"JJ-CCR",
     "info": {
         "author": "Kai-Uwe Sattler",
-        "version": "1.0",
+        "version": "1.1",
         "description": "based on SSI checklist",
         "language": "en"
     },
@@ -25,7 +25,9 @@
                     "type":"check"
                 }
             ],
-            "id":1,"name":"Analyze"},
+            "id":1,
+            "name":"Analyze"
+        },
         {
             "items": [
                 {
@@ -55,7 +57,7 @@
             "items": [
                 {
                     "id":31,
-                    "text":"Inspectg the head o-rings and fit the head to the scrubber canister",
+                    "text":"Inspect the head o-rings and fit the head to the scrubber canister",
                     "type":"check"
                 },
                 {
@@ -84,7 +86,8 @@
                     "type":"check"
                 }
             ],
-            "id":4,"name":"Hoses"
+            "id":4,
+            "name":"Hoses"
         },
         {
             "items": [
@@ -98,20 +101,36 @@
                     "text":"Route the heads-up display (HUD) and the controller, and verify correct routing",
                     "type":"check"
                 },
-                {
+                               {
                     "id":53,
+                    "text":"Sensor 1: record current mV (air)",
+                    "type":"value"
+                },
+                {
+                    "id":54,
+                    "text":"Sensor 2: record current mV (air)",
+                    "type":"value"
+                },
+                {
+                    "id":55,
+                    "text":"Sensor 3: record current mV (air)",
+                    "type":"value"
+                }
+                {
+                    "id":56,
                     "text":"Complete a positive pressure test for at least 1 minute",
                     "type": "timer",
                     "time": 60
                 },
                 {
-                    "id":54,
+                    "id":57,
                     "text":"Complete a negative pressure test for at least 1 minute",
                     "type": "timer",
                     "time": 60
                 }
             ],
-            "id":5,"name":"Test"
+            "id":5,
+            "name":"Test"
         },
         {
             "items": [
@@ -138,11 +157,12 @@
                 },
                 {
                     "id":65,
-                    "text":"Verify that the diluent interstage pressure is between 7-7.5 bar",
+                    "text":"Verify that the diluent interstage pressure is between 9-10 bar",
                     "type":"check"
                 }
             ],
-            "id":6,"name":"Cylinders"
+            "id":6,
+            "name":"Cylinders"
         },
         {
             "items": [
@@ -167,7 +187,8 @@
                     "type":"check"
                 }
             ],
-            "id":7,"name":"Valves"
+            "id":7,
+            "name":"Valves"
         },
         {
             "items": [
@@ -185,9 +206,25 @@
                     "id":83,
                     "text":"Calibrate the oxygen sensors on both the controller and the HUD",
                     "type":"check"
+                },
+                {
+                    "id":84,
+                    "text":"Sensor 1: record current mV at 100% O2",
+                    "type":"value"
+                },
+                {
+                    "id":85,
+                    "text":"Sensor 2: record current mV at 100% O2",
+                    "type":"value"
+                },
+                {
+                    "id":86,
+                    "text":"Sensor 3: record current mV at 100% O2",
+                    "type":"value"
                 }
             ],
-            "id":8,"name":"Calibration"
+            "id":8,
+            "name":"Calibration"
         },
         {
             "items": [
@@ -208,7 +245,8 @@
                     "type":"check"
                 }
             ],
-            "id":9,"name":"Final check"
+            "id":9,
+            "name":"Final check"
         }
     ],
     "logging": [
@@ -225,6 +263,48 @@
                 "item":24
             },
             "column":"Battery 2"
+        },
+        {
+            "column": "Ambient 1",
+            "value": {
+                "section": 5,
+                "item": 53
+            }
+        },
+        {
+            "column": "Ambient 2",
+            "value": {
+                "section": 5,
+                "item": 54
+            }
+        },
+        {
+            "column": "Ambient 3",
+            "value": {
+                "section": 5,
+                "item": 55
+            }
+        },
+        {
+            "column": "Oxygen 1",
+            "value": {
+                "section": 8,
+                "item": 84
+            }
+        },
+        {
+            "column": "Oxygen 2",
+            "value": {
+                "section": 8,
+                "item": 85
+            }
+        },
+        {
+            "column": "Oxygen 3",
+            "value": {
+                "section": 8,
+                "item": 86
+            }
         }
     ]
 }
