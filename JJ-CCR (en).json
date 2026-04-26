@@ -115,7 +115,7 @@
                     "id":55,
                     "text":"Sensor 3: record current mV (air)",
                     "type":"value"
-                }
+                },
                 {
                     "id":56,
                     "text":"Complete a positive pressure test for at least 1 minute",
