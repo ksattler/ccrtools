@@ -1,0 +1,310 @@
+{
+    "name":"JJ-CCR",
+    "info": {
+        "author": "Kai-Uwe Sattler",
+        "version": "1.1",
+        "description": "basierend auf SSI-Checkliste",
+        "language": "de"
+    },
+    "sections": [
+        {
+            "items": [
+                {
+                    "id":11,
+                    "text":"Bailout-Flasche(n) analysieren, zusammenbauen, Drucktest durchführen, beschriften und Funktions- sowie Teamkompatibilität bestätigen",
+                    "type":"check"
+                },
+                {
+                    "id":12,
+                    "text":"Kopf-O-Ringe prüfen und Kopf auf den Scrubber-Kanister setzen",
+                    "type":"check"
+                },
+                {
+                    "id":13,
+                    "text":"Sauerstoff- und Diluentflaschen analysieren, Drucktest durchführen und beschriften",
+                    "type":"check"
+                }
+            ],
+            "id":1,
+            "name":"Analysieren"
+        },
+        {
+            "items": [
+                {
+                    "id":21,
+                    "text":"Sauerstoff- und Diluentflaschen am Gerät montieren, beide Erstdruckregler anschließen und korrekte Montage überprüfen",
+                    "type":"check"
+                },
+                {
+                    "id":22,
+                    "text":"Akkustand auf ausreichende Kapazität für den geplanten Tauchgang prüfen (externer Akku >6,6 V oder >5,5 V, interner Akku >3,3 V oder >1,3 V)",
+                    "type":"check"
+                },
+                {
+                    "id":23,
+                    "text":"Externer Akku (in V)",
+                    "type":"value"
+                },
+                {
+                    "id":24,
+                    "text":"Interner Akku (in V)",
+                    "type":"value"
+                }
+            ],
+            "id":2,"name":"Installation"
+        },
+        {
+            "items": [
+                {
+                    "id":31,
+                    "text":"Kopf-O-Ringe prüfen und Kopf auf den Scrubber-Kanister setzen",
+                    "type":"check"
+                },
+                {
+                    "id":32,
+                    "text":"Scrubber-Kanister ins Gehäuse einsetzen: Knopf mit der Öffnung ausrichten, Knopf drücken und Batteriefach nach unten drücken, bis es einrastet",
+                    "type":"check"
+                }
+            ],
+            "id":3,"name":"Scrubber"
+        },
+        {
+            "items": [
+                {
+                    "id":41,
+                    "text":"Hintere Atemschläuche an T-Stück und automatisches Diluentventil (ADV) anschließen",
+                    "type":"check"
+                },
+                {
+                    "id":42,
+                    "text":"Magnetventilschlauch von den Augen weghalten, Sauerstoffflaschen-Ventil kurz öffnen und wieder schließen, um Schmutz oder Wasser aus dem Schlauch zu entfernen",
+                    "type":"check"
+                },
+                {
+                    "id":43,
+                    "text":"Magnetventilschlauch an Kopfanschluss anschließen (handfest)",
+                    "type":"check"
+                }
+            ],
+            "id":4,
+            "name":"Schläuche"
+        },
+        {
+            "items": [
+                {
+                    "id":51,
+                    "text":"Rückschlag-Ventile im Mundstück auf korrekte Funktion prüfen und Atemkreislauf an T-Stück und ADV anschließen",
+                    "type":"check"
+                },
+                {
+                    "id":52,
+                    "text":"HUD und Controller verlegen und korrekte Verlegung überprüfen",
+                    "type":"check"
+                },
+                {
+                    "id":53,
+                    "text":"Sensor 1: aktuellen mV-Wert (Luft) notieren",
+                    "type":"value"
+                },
+                {
+                    "id":54,
+                    "text":"Sensor 2: aktuellen mV-Wert (Luft) notieren",
+                    "type":"value"
+                },
+                {
+                    "id":55,
+                    "text":"Sensor 3: aktuellen mV-Wert (Luft) notieren",
+                    "type":"value"
+                },
+                {
+                    "id":56,
+                    "text":"Positivdrucktest mindestens 1 Minute durchführen",
+                    "type": "timer",
+                    "time": 60
+                },
+                {
+                    "id":57,
+                    "text":"Negativdrucktest mindestens 1 Minute durchführen",
+                    "type": "timer",
+                    "time": 60
+                }
+            ],
+            "id":5,
+            "name":"Test"
+        },
+        {
+            "items": [
+                {
+                    "id":61,
+                    "text":"Beide Flaschenventile öffnen",
+                    "type":"check"
+                },
+                {
+                    "id":62,
+                    "text":"Beide Flaschenventile schließen und Hochdruckdichtigkeitstest mindestens 1 Minute durchführen",
+                    "type": "timer",
+                    "time": 60
+                },
+                {
+                    "id":63,
+                    "text":"Beide Flaschenventile wieder öffnen, wenn das Gerät den Dichtigkeitstest besteht",
+                    "type":"check"
+                },
+                {
+                    "id":64,
+                    "text":"Sauerstoff-Mitteldruck auf 7–7,5 bar prüfen",
+                    "type":"check"
+                },
+                {
+                    "id":65,
+                    "text":"Diluent-Mitteldruck auf 9–10 bar prüfen",
+                    "type":"check"
+                }
+            ],
+            "id":6,
+            "name":"Flaschen"
+        },
+        {
+            "items": [
+                {
+                    "id":71,
+                    "text":"MAV und ADV auf korrekte Funktion prüfen",
+                    "type":"check"
+                },
+                {
+                    "id":72,
+                    "text":"Wing-Inflator und Abblasventile auf korrekte Funktion prüfen",
+                    "type":"check"
+                },
+                {
+                    "id":73,
+                    "text":"(DSV auf korrekte Funktion prüfen",
+                    "type":"check"
+                },
+                {
+                    "id":74,
+                    "text":"Überdruckventil auf korrekte Funktion prüfen und sicherstellen, dass es durch die Schlaufe am Wing geführt ist",
+                    "type":"check"
+                }
+            ],
+            "id":7,
+            "name":"Ventile"
+        },
+        {
+            "items": [
+                {
+                    "id":81,
+                    "text":"Controller und HUD einschalten und auf korrekte Funktion prüfen",
+                    "type":"check"
+                },
+                {
+                    "id":82,
+                    "text":"Mundstück öffnen und sicherstellen, dass es sich in der Kreislaufposition befindet",
+                    "type":"check"
+                },
+                {
+                    "id":83,
+                    "text":"Sauerstoffsensoren an Controller und HUD kalibrieren",
+                    "type":"check"
+                },
+                {
+                    "id":84,
+                    "text":"Sensor 1: aktuellen mV-Wert bei 100 % O2 notieren",
+                    "type":"value"
+                },
+                {
+                    "id":85,
+                    "text":"Sensor 2: aktuellen mV-Wert bei 100 % O2 notieren",
+                    "type":"value"
+                },
+                {
+                    "id":86,
+                    "text":"Sensor 3: aktuellen mV-Wert bei 100 % O2 notieren",
+                    "type":"value"
+                }
+            ],
+            "id":8,
+            "name":"Kalibrierung"
+        },
+        {
+            "items": [
+                {
+                    "id":91,
+                    "text":"2–3 Minuten aus dem Gerät atmen, um korrekte Funktion zu überprüfen",
+                    "type": "timer",
+                    "time": 60
+                },
+                {
+                    "id":92,
+                    "text":"ppO2 an Controller und HUD auf Übereinstimmung prüfen",
+                    "type":"check"
+                },
+                {
+                    "id":93,
+                    "text":"Controller und HUD ausschalten und beide Flaschenventile schließen",
+                    "type":"check"
+                }
+            ],
+            "id":9,
+            "name":"Abschlusskontrolle"
+        }
+    ],
+    "logging": [
+        {
+            "value": {
+                "section":2,
+                "item":23
+            },
+            "column":"Battery 1"
+        },
+        {
+            "value": {
+                "section":2,
+                "item":24
+            },
+            "column":"Battery 2"
+        },
+        {
+            "column": "Ambient 1",
+            "value": {
+                "section": 5,
+                "item": 53
+            }
+        },
+        {
+            "column": "Ambient 2",
+            "value": {
+                "section": 5,
+                "item": 54
+            }
+        },
+        {
+            "column": "Ambient 3",
+            "value": {
+                "section": 5,
+                "item": 55
+            }
+        },
+        {
+            "column": "Oxygen 1",
+            "value": {
+                "section": 8,
+                "item": 84
+            }
+        },
+        {
+            "column": "Oxygen 2",
+            "value": {
+                "section": 8,
+                "item": 85
+            }
+        },
+        {
+            "column": "Oxygen 3",
+            "value": {
+                "section": 8,
+                "item": 86
+            }
+        }
+    ]
+}
